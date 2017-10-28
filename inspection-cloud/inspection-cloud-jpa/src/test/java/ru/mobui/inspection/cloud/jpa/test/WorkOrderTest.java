@@ -194,6 +194,7 @@ public class WorkOrderTest extends AbstractTest {
 		em.getTransaction().commit();
 	}
 	
+	@SuppressWarnings("unused")
 	private void deleteWorkOrder(EntityManager em, String id ) {
 		WorkOrder WorkOrder = null;
 		em.getTransaction().begin();
